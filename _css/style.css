@@ -359,6 +359,13 @@ section.contato .form-wraper span{
 	font-size: 15px;
 	color: #b4b4b4;
 }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
 section.contato .form-wraper input[type=text],input[type=number],input[type=email]{
 	width: 100%;
 	height: 35px;
@@ -373,6 +380,7 @@ section.contato .form-wraper textarea{
 	margin-top: 8px;
 	height: 121px;
 	resize:none;
+	border: none;
 }
 section.contato span.obrigatorio{
 	font-size: 15px;
